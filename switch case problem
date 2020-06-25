@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<conio.h>
+main(){
+	int number=0;
+	printf("Hey , if you are confused i'll pick a food iten for you .\n Enter a number.");
+	scanf("%d",&number);
+	switch (number){
+		case 1:
+			printf("try pizza , it'll only cost you 239 rupees");
+			break;
+			
+			case 2:
+				
+			printf("try burger , it'll only cost you 129 rupees");
+			break;
+			
+			case 3:
+				
+			printf("try pasta , it'll only cost you 179 rupees");
+			break;
+			case 4:
+			
+			printf("try french fries , it'll only cost you 99 rupees");
+			break;
+			
+			case 5:
+				
+			printf("try sandwich , it'll only cost you 149 rupees");
+			break;
+			default: 
+			printf("sorry , i am out of options now");
+	}
+}
